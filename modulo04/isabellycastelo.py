@@ -8,7 +8,7 @@ def saudacao(nome):
 print("=== Chamando a função 'saudacao' ===")
 
 saudacao("Ester")
-saudacao("Sara")
+saudacao("Sarah")
 
 meu_nome = "novo amiga(o)"
 saudacao(meu_nome)
