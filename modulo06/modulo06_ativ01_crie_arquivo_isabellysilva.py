@@ -1,3 +1,4 @@
+'''
 import json
 
 nome_arquivo = "clientes_nomes.json"
@@ -39,3 +40,16 @@ with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
 
 for cliente in clientes_carregados:
     print(f"Cliente: {cliente['Nome completo']} | E-Mail: {cliente['E-Mail']}")
+
+'''
+
+
+arquivo_read = open('arquivo_leitura.txt','r')
+
+conteudo_arquivo = arquivo_read.readlines()
+
+print(conteudo_arquivo)
+
+arquivo_read.close()
+
+print(conteudo_arquivo[4].strip())
