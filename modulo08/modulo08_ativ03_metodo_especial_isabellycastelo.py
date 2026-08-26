@@ -1,3 +1,4 @@
+#class adicionada para mostrar a marca e o modelo do carro, mostrando as informações na tela.
 class Carro:
     def __init__(self,marca, modelo):
         self.marca = marca
@@ -6,15 +7,11 @@ class Carro:
     def exibir_info(self):
         return f"Marca: {self.marca}, Modelo: {self.modelo}"
 
+#class criada para mostrar a informação do carro como marca, 
 class CarroEletrico(Carro):
     def __init__(self, marca, modelo, autonomia_bateria):
         super().__init__(marca, modelo)
         self.autonomia = autonomia_bateria
-
-
-
-
-
 
 
     def exibir_info(self):
