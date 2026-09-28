@@ -1,7 +1,3 @@
-"""
-oi
-"""
-
 import requests
 
 def consultar_clima():
